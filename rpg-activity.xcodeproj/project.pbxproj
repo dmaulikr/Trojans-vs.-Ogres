@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E23826B31BC9B1640053366B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23826B21BC9B1640053366B /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		E23826B51BC9BFF90053366B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23826B41BC9BFF90053366B /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		E29012A41BC9965C00541ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A31BC9965C00541ECF /* AppDelegate.swift */; };
 		E29012A61BC9965C00541ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A51BC9965C00541ECF /* ViewController.swift */; };
 		E29012A91BC9965C00541ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29012A71BC9965C00541ECF /* Main.storyboard */; };
 		E29012AB1BC9965C00541ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29012AA1BC9965C00541ECF /* Assets.xcassets */; };
 		E29012AE1BC9965C00541ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29012AC1BC9965C00541ECF /* LaunchScreen.storyboard */; };
-		E29012B61BC996A600541ECF /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012B51BC996A600541ECF /* character.swift */; settings = {ASSET_TAGS = (); }; };
 		E29012B81BC999C800541ECF /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E29012B71BC999C800541ECF /* Minecraft.ttf */; settings = {ASSET_TAGS = (); }; };
-		E29012BC1BC99D2B00541ECF /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012BB1BC99D2B00541ECF /* GameState.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E23826B21BC9B1640053366B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E23826B41BC9BFF90053366B /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		E29012A01BC9965C00541ECF /* rpg-activity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rpg-activity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29012A31BC9965C00541ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29012A51BC9965C00541ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +25,7 @@
 		E29012AA1BC9965C00541ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29012AD1BC9965C00541ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E29012AF1BC9965C00541ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E29012B51BC996A600541ECF /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = character.swift; path = ../character.swift; sourceTree = "<group>"; };
 		E29012B71BC999C800541ECF /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
-		E29012BB1BC99D2B00541ECF /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +65,7 @@
 				E29012AA1BC9965C00541ECF /* Assets.xcassets */,
 				E29012AC1BC9965C00541ECF /* LaunchScreen.storyboard */,
 				E29012AF1BC9965C00541ECF /* Info.plist */,
-				E29012B51BC996A600541ECF /* character.swift */,
-				E29012BB1BC99D2B00541ECF /* GameState.swift */,
-				E23826B21BC9B1640053366B /* Player.swift */,
+				E23826B41BC9BFF90053366B /* Character.swift */,
 			);
 			path = "rpg-activity";
 			sourceTree = "<group>";
@@ -147,10 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29012B61BC996A600541ECF /* character.swift in Sources */,
-				E29012BC1BC99D2B00541ECF /* GameState.swift in Sources */,
+				E23826B51BC9BFF90053366B /* Character.swift in Sources */,
 				E29012A61BC9965C00541ECF /* ViewController.swift in Sources */,
-				E23826B31BC9B1640053366B /* Player.swift in Sources */,
 				E29012A41BC9965C00541ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

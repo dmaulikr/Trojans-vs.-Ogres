@@ -22,9 +22,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var statusLbl: UILabel!
     
+    var player1: Character!
+    var player2: Character!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        player1 = Character(startingHP: 100, attackPwr: 20)
+        player2 = Character(startingHP: 100, attackPwr: 20)
         
         // prompt a player to select their fighter.
             // find out what fighter it is, player.id (1 or 2)
@@ -35,6 +40,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressedOgreSelect(sender: AnyObject) {
+        
     }
     
     @IBAction func pressedSoldierSelect(sender: AnyObject) {
@@ -45,28 +51,6 @@ class ViewController: UIViewController {
     
     @IBAction func playerOneAttacked(sender: AnyObject) {
         
-    }
-    
-    func loadMusic(){
-        // load music
-    }
-    
-    func loadSFX(){
-        // load sfx
-    }
-    
-    func chooseChar(){
-        // choose which char they would like to be
-            // there can be 2 orcs, 2 soldiers, one of each
-    }
-    
-    func displayVictoryMessage(){
-        // when person wins, display which player it was.
-            // need large lbl
-    }
-
-    func attack(){
-        // play again?
     }
 
 }
