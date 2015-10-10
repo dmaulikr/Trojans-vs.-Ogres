@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SK1-zq-OtQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Minecraft.ttf">
+            <string>Minecraft</string>
             <string>Minecraft</string>
             <string>Minecraft</string>
             <string>Minecraft</string>
@@ -29,6 +30,83 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="B6U-65-WrR">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-uq-1XL">
+                                <rect key="frame" x="111" y="167" width="378" height="266"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kkc-lS-lNE">
+                                        <rect key="frame" x="0.0" y="0.0" width="184" height="266"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" ambiguous="YES" image="ogre-left" translatesAutoresizingMaskIntoConstraints="NO" id="01j-01-7pU">
+                                                <rect key="frame" x="0.0" y="0.0" width="184" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="199" id="9cI-Iy-jwc"/>
+                                                    <constraint firstAttribute="height" constant="209" id="Gea-hd-DfY"/>
+                                                    <constraint firstAttribute="height" constant="209" id="InY-tN-LZ1"/>
+                                                    <constraint firstAttribute="height" constant="200" id="KYH-RG-8HE"/>
+                                                    <constraint firstAttribute="width" constant="199" id="f60-rP-Afz"/>
+                                                    <constraint firstAttribute="width" constant="184" id="h9u-PV-Ubx"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="9cI-Iy-jwc"/>
+                                                        <exclude reference="Gea-hd-DfY"/>
+                                                        <exclude reference="InY-tN-LZ1"/>
+                                                        <exclude reference="f60-rP-Afz"/>
+                                                    </mask>
+                                                </variation>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkE-5I-WUb">
+                                                <rect key="frame" x="19" y="208" width="145" height="58"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="58" id="KyN-Xe-zpW"/>
+                                                    <constraint firstAttribute="width" constant="145" id="bXu-Y8-Rsh"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
+                                                <state key="normal" title="Garrrr" backgroundImage="player2attackbtn"/>
+                                                <connections>
+                                                    <action selector="pressedOgreSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i28-qM-WF3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="guM-Ll-8dI">
+                                        <rect key="frame" x="194" y="0.0" width="184" height="266"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" ambiguous="YES" image="soldier_left" translatesAutoresizingMaskIntoConstraints="NO" id="N71-vu-5hO">
+                                                <rect key="frame" x="0.0" y="0.0" width="184" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="184" id="4gf-SR-ecJ"/>
+                                                    <constraint firstAttribute="width" constant="199" id="9yN-w4-s2I"/>
+                                                    <constraint firstAttribute="height" constant="209" id="OhO-Fl-cBb"/>
+                                                    <constraint firstAttribute="width" constant="199" id="Ytj-jJ-0Dq"/>
+                                                    <constraint firstAttribute="height" constant="200" id="kYY-aB-dQP"/>
+                                                    <constraint firstAttribute="height" constant="209" id="qrU-g9-V6u"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="9yN-w4-s2I"/>
+                                                        <exclude reference="OhO-Fl-cBb"/>
+                                                        <exclude reference="Ytj-jJ-0Dq"/>
+                                                        <exclude reference="qrU-g9-V6u"/>
+                                                    </mask>
+                                                </variation>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNj-uK-3Ul">
+                                                <rect key="frame" x="17" y="208" width="150" height="58"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="i2D-Y9-w3M"/>
+                                                    <constraint firstAttribute="height" constant="58" id="xFn-WG-Ubq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
+                                                <state key="normal" title="Yes, Sir!" backgroundImage="player1attackbtn"/>
+                                                <connections>
+                                                    <action selector="pressedSoldierSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqs-OO-ff5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-holder" translatesAutoresizingMaskIntoConstraints="NO" id="Zhn-ol-DXz">
                                 <rect key="frame" x="48" y="13" width="504" height="50"/>
                                 <constraints>
@@ -41,6 +119,27 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e74-FY-wdD" userLabel="voctory, play again">
+                                <rect key="frame" x="160" y="110" width="282" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 1 WINS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVa-FZ-t5W">
+                                        <rect key="frame" x="0.0" y="0.0" width="282" height="39"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="37"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-KQ-59i">
+                                        <rect key="frame" x="0.0" y="59" width="282" height="31"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="29"/>
+                                        <color key="textColor" red="0.6118797083842602" green="1" blue="0.10303682556746707" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.080332478298903304" green="0.37282986111111116" blue="0.10752752390408704" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="1" height="2"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="9K5-dR-y32">
                                 <rect key="frame" x="0.0" y="494" width="600" height="106"/>
                             </imageView>
@@ -74,6 +173,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                 <state key="normal" title="Attack" backgroundImage="player1attackbtn"/>
+                                <connections>
+                                    <action selector="playerTwoAttacked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NaJ-EK-PFT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gem-nz-ZbE">
                                 <rect key="frame" x="10" y="522" width="145" height="58"/>
@@ -83,6 +185,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                 <state key="normal" title="Attack" backgroundImage="player2attackbtn"/>
+                                <connections>
+                                    <action selector="playerOneAttacked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLe-Kn-tpA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -95,12 +200,14 @@
                             <constraint firstItem="gem-nz-ZbE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="G28-EL-I2q"/>
                             <constraint firstItem="g1e-dz-Vpe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mrb-ap-g3G"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="O6L-g7-N5d"/>
+                            <constraint firstItem="e74-FY-wdD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="On3-Bx-zpy"/>
                             <constraint firstItem="B6U-65-WrR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QKf-Iz-R90"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="top" secondItem="Zye-c7-Pu4" secondAttribute="bottom" id="UxP-8K-2Ah"/>
                             <constraint firstAttribute="trailing" secondItem="Zhn-ol-DXz" secondAttribute="trailing" constant="48" id="WVl-RO-VJa"/>
                             <constraint firstItem="Zhn-ol-DXz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="13" id="dOT-8G-jGe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gcf-Vt-xlO" secondAttribute="bottom" constant="20" id="fAf-OP-IE3"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="top" secondItem="g1e-dz-Vpe" secondAttribute="bottom" id="igg-jR-8pi"/>
+                            <constraint firstItem="e74-FY-wdD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j1n-HI-q6h"/>
                             <constraint firstItem="U1j-Zi-y2N" firstAttribute="top" secondItem="Zhn-ol-DXz" secondAttribute="top" constant="16" id="jM4-tm-cpQ"/>
                             <constraint firstAttribute="trailing" secondItem="B6U-65-WrR" secondAttribute="trailing" id="oB6-LJ-hWG"/>
                             <constraint firstItem="B6U-65-WrR" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="pSI-mk-QEr"/>
@@ -119,137 +226,18 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="playerOneImg" destination="g1e-dz-Vpe" id="ZT8-UH-XXm"/>
+                        <outlet property="playerTwoImg" destination="Zye-c7-Pu4" id="ISw-Kx-u1D"/>
+                        <outlet property="selectOgre" destination="01j-01-7pU" id="czW-92-7xZ"/>
+                        <outlet property="selectSoldier" destination="N71-vu-5hO" id="G1S-8G-JEu"/>
+                        <outlet property="selectStackView" destination="Ofh-uq-1XL" id="78r-38-7x1"/>
+                        <outlet property="statusLbl" destination="U1j-Zi-y2N" id="rzo-nx-XgO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="243" y="339"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="S0e-VH-dzz">
-            <objects>
-                <viewController id="SK1-zq-OtQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="h29-Ms-ZCk"/>
-                        <viewControllerLayoutGuide type="bottom" id="5iE-0I-2iB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bkp-qg-NYE">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="zrP-bS-vf2">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text-holder" translatesAutoresizingMaskIntoConstraints="NO" id="CWB-pD-Lha">
-                                <rect key="frame" x="48" y="13" width="504" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="QU1-aw-MAQ"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player 1: Choose fighter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74V-kx-EWM">
-                                <rect key="frame" x="48" y="30" width="504" height="26"/>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="26"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-uq-1XL">
-                                <rect key="frame" x="111" y="181" width="378" height="266"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kkc-lS-lNE">
-                                        <rect key="frame" x="0.0" y="0.0" width="184" height="266"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="ogre-left" translatesAutoresizingMaskIntoConstraints="NO" id="01j-01-7pU">
-                                                <rect key="frame" x="0.0" y="0.0" width="184" height="200"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="199" id="9cI-Iy-jwc"/>
-                                                    <constraint firstAttribute="height" constant="209" id="Gea-hd-DfY"/>
-                                                    <constraint firstAttribute="height" constant="209" id="InY-tN-LZ1"/>
-                                                    <constraint firstAttribute="height" constant="200" id="KYH-RG-8HE"/>
-                                                    <constraint firstAttribute="width" constant="199" id="f60-rP-Afz"/>
-                                                    <constraint firstAttribute="width" constant="184" id="h9u-PV-Ubx"/>
-                                                </constraints>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="9cI-Iy-jwc"/>
-                                                        <exclude reference="Gea-hd-DfY"/>
-                                                        <exclude reference="InY-tN-LZ1"/>
-                                                        <exclude reference="f60-rP-Afz"/>
-                                                    </mask>
-                                                </variation>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkE-5I-WUb">
-                                                <rect key="frame" x="20" y="208" width="145" height="58"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="KyN-Xe-zpW"/>
-                                                    <constraint firstAttribute="width" constant="145" id="bXu-Y8-Rsh"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
-                                                <state key="normal" title="Garrrr" backgroundImage="player2attackbtn"/>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="guM-Ll-8dI">
-                                        <rect key="frame" x="194" y="0.0" width="184" height="266"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="soldier_left" translatesAutoresizingMaskIntoConstraints="NO" id="N71-vu-5hO">
-                                                <rect key="frame" x="0.0" y="0.0" width="184" height="200"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="184" id="4gf-SR-ecJ"/>
-                                                    <constraint firstAttribute="width" constant="199" id="9yN-w4-s2I"/>
-                                                    <constraint firstAttribute="height" constant="209" id="OhO-Fl-cBb"/>
-                                                    <constraint firstAttribute="width" constant="199" id="Ytj-jJ-0Dq"/>
-                                                    <constraint firstAttribute="height" constant="200" id="kYY-aB-dQP"/>
-                                                    <constraint firstAttribute="height" constant="209" id="qrU-g9-V6u"/>
-                                                </constraints>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="9yN-w4-s2I"/>
-                                                        <exclude reference="OhO-Fl-cBb"/>
-                                                        <exclude reference="Ytj-jJ-0Dq"/>
-                                                        <exclude reference="qrU-g9-V6u"/>
-                                                    </mask>
-                                                </variation>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNj-uK-3Ul">
-                                                <rect key="frame" x="17" y="208" width="150" height="58"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="150" id="i2D-Y9-w3M"/>
-                                                    <constraint firstAttribute="height" constant="58" id="xFn-WG-Ubq"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
-                                                <state key="normal" title="Yes, Sir!" backgroundImage="player1attackbtn"/>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="74V-kx-EWM" firstAttribute="top" secondItem="CWB-pD-Lha" secondAttribute="top" constant="16" id="0kY-n1-Xhc"/>
-                            <constraint firstItem="Ofh-uq-1XL" firstAttribute="top" secondItem="CWB-pD-Lha" secondAttribute="bottom" constant="20" id="2HU-05-CRF"/>
-                            <constraint firstItem="zrP-bS-vf2" firstAttribute="leading" secondItem="bkp-qg-NYE" secondAttribute="leading" id="BYz-O2-kmW"/>
-                            <constraint firstItem="zrP-bS-vf2" firstAttribute="bottom" secondItem="5iE-0I-2iB" secondAttribute="top" id="DBh-Kg-oZ7"/>
-                            <constraint firstAttribute="trailing" secondItem="zrP-bS-vf2" secondAttribute="trailing" id="Fnw-rv-nED"/>
-                            <constraint firstItem="CWB-pD-Lha" firstAttribute="top" secondItem="bkp-qg-NYE" secondAttribute="top" constant="13" id="OKt-dq-pNu"/>
-                            <constraint firstItem="Ofh-uq-1XL" firstAttribute="centerY" secondItem="bkp-qg-NYE" secondAttribute="centerY" constant="15" id="Tdh-kz-iEx"/>
-                            <constraint firstItem="CWB-pD-Lha" firstAttribute="leading" secondItem="bkp-qg-NYE" secondAttribute="leading" constant="48" id="aC9-jI-R7K"/>
-                            <constraint firstItem="zrP-bS-vf2" firstAttribute="centerX" secondItem="bkp-qg-NYE" secondAttribute="centerX" id="bug-7X-ZQP"/>
-                            <constraint firstItem="zrP-bS-vf2" firstAttribute="top" secondItem="bkp-qg-NYE" secondAttribute="top" id="enw-c5-BVa"/>
-                            <constraint firstItem="zrP-bS-vf2" firstAttribute="centerY" secondItem="bkp-qg-NYE" secondAttribute="centerY" id="gEE-it-TrG"/>
-                            <constraint firstItem="Ofh-uq-1XL" firstAttribute="centerX" secondItem="bkp-qg-NYE" secondAttribute="centerX" id="jJz-zs-x2Q"/>
-                            <constraint firstItem="74V-kx-EWM" firstAttribute="centerX" secondItem="CWB-pD-Lha" secondAttribute="centerX" id="vRU-J8-uIc"/>
-                            <constraint firstAttribute="trailing" secondItem="CWB-pD-Lha" secondAttribute="trailing" constant="48" id="z9A-aE-DCT"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="2HU-05-CRF"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cH9-NX-BiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-415" y="339"/>
         </scene>
     </scenes>
     <resources>

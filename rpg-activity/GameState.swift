@@ -9,8 +9,16 @@
 import Foundation
 
 class GameState {
+    var state = String
     
-    init(){
+    init(state: String){
+        if state == "pregame" {
+            
+        } else if state == "battle" {
+            
+        } else if state == "end" {
+            
+        }
         
     }
 }
