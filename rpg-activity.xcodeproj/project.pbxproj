@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E23826B51BC9BFF90053366B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23826B41BC9BFF90053366B /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		E24E5FB71BC9DB4F0043917D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E5FB61BC9DB4F0043917D /* Player.swift */; settings = {ASSET_TAGS = (); }; };
 		E29012A41BC9965C00541ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A31BC9965C00541ECF /* AppDelegate.swift */; };
 		E29012A61BC9965C00541ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A51BC9965C00541ECF /* ViewController.swift */; };
 		E29012A91BC9965C00541ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29012A71BC9965C00541ECF /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E23826B41BC9BFF90053366B /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E24E5FB61BC9DB4F0043917D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E29012A01BC9965C00541ECF /* rpg-activity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rpg-activity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29012A31BC9965C00541ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29012A51BC9965C00541ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				E29012AA1BC9965C00541ECF /* Assets.xcassets */,
 				E29012AC1BC9965C00541ECF /* LaunchScreen.storyboard */,
 				E29012AF1BC9965C00541ECF /* Info.plist */,
-				E23826B41BC9BFF90053366B /* Character.swift */,
+				E24E5FB61BC9DB4F0043917D /* Player.swift */,
 			);
 			path = "rpg-activity";
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E23826B51BC9BFF90053366B /* Character.swift in Sources */,
+				E24E5FB71BC9DB4F0043917D /* Player.swift in Sources */,
 				E29012A61BC9965C00541ECF /* ViewController.swift in Sources */,
 				E29012A41BC9965C00541ECF /* AppDelegate.swift in Sources */,
 			);

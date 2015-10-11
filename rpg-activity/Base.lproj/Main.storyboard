@@ -13,7 +13,6 @@
             <string>Minecraft</string>
             <string>Minecraft</string>
             <string>Minecraft</string>
-            <string>Minecraft</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -44,30 +43,33 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e74-FY-wdD" userLabel="voctory, play again">
-                                <rect key="frame" x="160" y="110" width="282" height="90"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER 1 WINS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVa-FZ-t5W">
-                                        <rect key="frame" x="0.0" y="0.0" width="282" height="39"/>
-                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="37"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="2" height="2"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-KQ-59i">
-                                        <rect key="frame" x="0.0" y="59" width="282" height="31"/>
-                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="29"/>
-                                        <color key="textColor" red="0.6118797083842602" green="1" blue="0.10303682556746707" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.080332478298903304" green="0.37282986111111116" blue="0.10752752390408704" alpha="1" colorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="1" height="2"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="9K5-dR-y32">
                                 <rect key="frame" x="0.0" y="494" width="600" height="106"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAi-hK-jkc" userLabel="100 HP right">
+                                <rect key="frame" x="297" y="423" width="199" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="2uv-G2-Uvi"/>
+                                    <constraint firstAttribute="width" constant="199" id="JcK-iL-wL1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="44"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYs-9S-J9n" userLabel="100 HP left">
+                                <rect key="frame" x="111" y="423" width="199" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="Hkq-7y-jBb"/>
+                                    <constraint firstAttribute="height" constant="91" id="aTc-tE-qIu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="44"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="3"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soldier_right" translatesAutoresizingMaskIntoConstraints="NO" id="Zye-c7-Pu4">
                                 <rect key="frame" x="401" y="285" width="199" height="209"/>
                                 <constraints>
@@ -75,7 +77,7 @@
                                     <constraint firstAttribute="width" constant="199" id="CMv-d6-U9f"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ogre-left" translatesAutoresizingMaskIntoConstraints="NO" id="g1e-dz-Vpe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ogre-left" translatesAutoresizingMaskIntoConstraints="NO" id="g1e-dz-Vpe" userLabel="leftImg">
                                 <rect key="frame" x="0.0" y="285" width="199" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="209" id="4Dj-4z-DM2"/>
@@ -99,7 +101,7 @@
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                 <state key="normal" title="Attack" backgroundImage="player1attackbtn"/>
                                 <connections>
-                                    <action selector="playerTwoAttacked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NaJ-EK-PFT"/>
+                                    <action selector="plr2AttackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tvU-0y-io8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gem-nz-ZbE">
@@ -111,7 +113,7 @@
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                 <state key="normal" title="Attack" backgroundImage="player2attackbtn"/>
                                 <connections>
-                                    <action selector="playerOneAttacked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLe-Kn-tpA"/>
+                                    <action selector="plr1AttackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OUA-gb-Orz"/>
                                 </connections>
                             </button>
                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ofh-uq-1XL">
@@ -147,9 +149,6 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                                 <state key="normal" title="Garrrr" backgroundImage="player2attackbtn"/>
-                                                <connections>
-                                                    <action selector="pressedOgreSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i28-qM-WF3"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -183,38 +182,31 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="21"/>
                                                 <state key="normal" title="Yes, Sir!" backgroundImage="player1attackbtn"/>
-                                                <connections>
-                                                    <action selector="pressedSoldierSelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqs-OO-ff5"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYs-9S-J9n">
-                                <rect key="frame" x="111" y="423" width="199" height="91"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="199" id="Hkq-7y-jBb"/>
-                                    <constraint firstAttribute="height" constant="91" id="aTc-tE-qIu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="50"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="1" height="3"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAi-hK-jkc">
-                                <rect key="frame" x="297" y="423" width="199" height="91"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="91" id="2uv-G2-Uvi"/>
-                                    <constraint firstAttribute="width" constant="199" id="JcK-iL-wL1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="50"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="1" height="3"/>
-                            </label>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e74-FY-wdD" userLabel="voctory, play again">
+                                <rect key="frame" x="211" y="78" width="178" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnH-BS-ehe">
+                                        <rect key="frame" x="0.0" y="0.0" width="178" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="aVY-EN-dPt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="32"/>
+                                        <size key="titleShadowOffset" width="2" height="2"/>
+                                        <state key="normal" title="Play again?">
+                                            <color key="titleColor" red="0.5607843137254902" green="1" blue="0.082352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.12135863346136654" green="0.33455650252525249" blue="0.12420640969940314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playAgainPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJh-bH-YAl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -231,6 +223,7 @@
                             <constraint firstItem="e74-FY-wdD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="On3-Bx-zpy"/>
                             <constraint firstItem="B6U-65-WrR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QKf-Iz-R90"/>
                             <constraint firstItem="lYs-9S-J9n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="111" id="SJq-oQ-xZr"/>
+                            <constraint firstItem="e74-FY-wdD" firstAttribute="top" secondItem="Zhn-ol-DXz" secondAttribute="bottom" constant="15" id="TM7-Ly-Ylp"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="top" secondItem="VAi-hK-jkc" secondAttribute="bottom" constant="-20" id="TSM-v0-ZAJ"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="top" secondItem="Zye-c7-Pu4" secondAttribute="bottom" id="UxP-8K-2Ah"/>
                             <constraint firstAttribute="trailing" secondItem="Zhn-ol-DXz" secondAttribute="trailing" constant="48" id="WVl-RO-VJa"/>
@@ -238,7 +231,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gcf-Vt-xlO" secondAttribute="bottom" constant="20" id="fAf-OP-IE3"/>
                             <constraint firstItem="Ofh-uq-1XL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="15" id="hk1-Uq-fbb"/>
                             <constraint firstItem="9K5-dR-y32" firstAttribute="top" secondItem="g1e-dz-Vpe" secondAttribute="bottom" id="igg-jR-8pi"/>
-                            <constraint firstItem="e74-FY-wdD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j1n-HI-q6h"/>
+                            <constraint firstItem="e74-FY-wdD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="j1n-HI-q6h"/>
                             <constraint firstItem="U1j-Zi-y2N" firstAttribute="top" secondItem="Zhn-ol-DXz" secondAttribute="top" constant="16" id="jM4-tm-cpQ"/>
                             <constraint firstItem="lYs-9S-J9n" firstAttribute="top" relation="greaterThanOrEqual" secondItem="e74-FY-wdD" secondAttribute="bottom" constant="10" id="mpN-K4-ur6"/>
                             <constraint firstAttribute="trailing" secondItem="B6U-65-WrR" secondAttribute="trailing" id="oB6-LJ-hWG"/>
@@ -254,21 +247,24 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="mpN-K4-ur6"/>
+                                <exclude reference="j1n-HI-q6h"/>
                                 <exclude reference="x1g-l0-vfC"/>
                                 <exclude reference="Mrb-ap-g3G"/>
-                                <exclude reference="Azo-CT-dGc"/>
+                                <exclude reference="mpN-K4-ur6"/>
                                 <exclude reference="5mJ-Ng-Cij"/>
+                                <exclude reference="Azo-CT-dGc"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="playerOneImg" destination="g1e-dz-Vpe" id="ZT8-UH-XXm"/>
-                        <outlet property="playerTwoImg" destination="Zye-c7-Pu4" id="ISw-Kx-u1D"/>
-                        <outlet property="selectOgre" destination="01j-01-7pU" id="czW-92-7xZ"/>
-                        <outlet property="selectSoldier" destination="N71-vu-5hO" id="G1S-8G-JEu"/>
-                        <outlet property="selectStackView" destination="Ofh-uq-1XL" id="78r-38-7x1"/>
-                        <outlet property="statusLbl" destination="U1j-Zi-y2N" id="rzo-nx-XgO"/>
+                        <outlet property="leftPlrBtn" destination="gem-nz-ZbE" id="A7g-mO-3TZ"/>
+                        <outlet property="leftPlrHpLbl" destination="lYs-9S-J9n" id="A81-yO-x0m"/>
+                        <outlet property="leftPlrImg" destination="g1e-dz-Vpe" id="MT2-jJ-EkH"/>
+                        <outlet property="messageLbl" destination="U1j-Zi-y2N" id="scP-wN-7aq"/>
+                        <outlet property="rightPlrBtn" destination="Gcf-Vt-xlO" id="Q6v-gP-vCO"/>
+                        <outlet property="rightPlrHpLbl" destination="VAi-hK-jkc" id="zjf-IB-cJQ"/>
+                        <outlet property="rightPlrImg" destination="Zye-c7-Pu4" id="HkT-IL-kzC"/>
+                        <outlet property="victoryPlayAgain" destination="e74-FY-wdD" id="zWZ-Wl-IHq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
