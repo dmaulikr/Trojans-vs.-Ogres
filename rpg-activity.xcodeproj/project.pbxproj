@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E24E5FB71BC9DB4F0043917D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E5FB61BC9DB4F0043917D /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		E24E5FBE1BC9EDF70043917D /* 03 Chibi Ninja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FB81BC9EDF70043917D /* 03 Chibi Ninja.mp3 */; settings = {ASSET_TAGS = (); }; };
+		E24E5FBF1BC9EDF70043917D /* Hit_Hurt1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FB91BC9EDF70043917D /* Hit_Hurt1.wav */; settings = {ASSET_TAGS = (); }; };
+		E24E5FC01BC9EDF70043917D /* Hit_Hurt2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FBA1BC9EDF70043917D /* Hit_Hurt2.wav */; settings = {ASSET_TAGS = (); }; };
+		E24E5FC11BC9EDF70043917D /* Hit_Hurt3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FBB1BC9EDF70043917D /* Hit_Hurt3.wav */; settings = {ASSET_TAGS = (); }; };
+		E24E5FC21BC9EDF70043917D /* Hit_Hurt0.wav in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FBC1BC9EDF70043917D /* Hit_Hurt0.wav */; settings = {ASSET_TAGS = (); }; };
+		E24E5FC31BC9EDF70043917D /* Pickup_Coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E24E5FBD1BC9EDF70043917D /* Pickup_Coin.wav */; settings = {ASSET_TAGS = (); }; };
 		E29012A41BC9965C00541ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A31BC9965C00541ECF /* AppDelegate.swift */; };
 		E29012A61BC9965C00541ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29012A51BC9965C00541ECF /* ViewController.swift */; };
 		E29012A91BC9965C00541ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29012A71BC9965C00541ECF /* Main.storyboard */; };
@@ -18,6 +24,12 @@
 
 /* Begin PBXFileReference section */
 		E24E5FB61BC9DB4F0043917D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E24E5FB81BC9EDF70043917D /* 03 Chibi Ninja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Chibi Ninja.mp3"; sourceTree = "<group>"; };
+		E24E5FB91BC9EDF70043917D /* Hit_Hurt1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hit_Hurt1.wav; sourceTree = "<group>"; };
+		E24E5FBA1BC9EDF70043917D /* Hit_Hurt2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hit_Hurt2.wav; sourceTree = "<group>"; };
+		E24E5FBB1BC9EDF70043917D /* Hit_Hurt3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hit_Hurt3.wav; sourceTree = "<group>"; };
+		E24E5FBC1BC9EDF70043917D /* Hit_Hurt0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hit_Hurt0.wav; sourceTree = "<group>"; };
+		E24E5FBD1BC9EDF70043917D /* Pickup_Coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pickup_Coin.wav; sourceTree = "<group>"; };
 		E29012A01BC9965C00541ECF /* rpg-activity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rpg-activity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29012A31BC9965C00541ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29012A51BC9965C00541ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				E29012B71BC999C800541ECF /* Minecraft.ttf */,
+				E24E5FB81BC9EDF70043917D /* 03 Chibi Ninja.mp3 */,
+				E24E5FB91BC9EDF70043917D /* Hit_Hurt1.wav */,
+				E24E5FBA1BC9EDF70043917D /* Hit_Hurt2.wav */,
+				E24E5FBB1BC9EDF70043917D /* Hit_Hurt3.wav */,
+				E24E5FBC1BC9EDF70043917D /* Hit_Hurt0.wav */,
+				E24E5FBD1BC9EDF70043917D /* Pickup_Coin.wav */,
 				E29012A31BC9965C00541ECF /* AppDelegate.swift */,
 				E29012A51BC9965C00541ECF /* ViewController.swift */,
 				E29012A71BC9965C00541ECF /* Main.storyboard */,
@@ -128,9 +146,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29012AE1BC9965C00541ECF /* LaunchScreen.storyboard in Resources */,
+				E24E5FBF1BC9EDF70043917D /* Hit_Hurt1.wav in Resources */,
+				E24E5FC21BC9EDF70043917D /* Hit_Hurt0.wav in Resources */,
+				E24E5FC01BC9EDF70043917D /* Hit_Hurt2.wav in Resources */,
+				E24E5FC11BC9EDF70043917D /* Hit_Hurt3.wav in Resources */,
 				E29012AB1BC9965C00541ECF /* Assets.xcassets in Resources */,
 				E29012B81BC999C800541ECF /* Minecraft.ttf in Resources */,
+				E24E5FBE1BC9EDF70043917D /* 03 Chibi Ninja.mp3 in Resources */,
 				E29012A91BC9965C00541ECF /* Main.storyboard in Resources */,
+				E24E5FC31BC9EDF70043917D /* Pickup_Coin.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
